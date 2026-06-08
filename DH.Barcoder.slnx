@@ -7,5 +7,7 @@
     <File Path="NuGet.config" />
     <File Path="Readme.MD" />
   </Folder>
+  <Project Path="DH.Barcoder.Renderer.Image/DH.Barcoder.Renderer.Image.csproj" />
+  <Project Path="DH.Barcoder.Renderer.Svg/DH.Barcoder.Renderer.Svg.csproj" />
   <Project Path="DH.Barcoder/DH.Barcoder.csproj" />
 </Solution>
