@@ -1,3 +1,3 @@
-﻿# Pek.PayPal - Paypal支付库
+﻿# DH.Barcoder - 条形码生成库
 
-用于DH框架的Paypal支付库
+基于DH框架的轻量级条码编码库，可用于将生成的条形码呈现为 SVG 或图像。

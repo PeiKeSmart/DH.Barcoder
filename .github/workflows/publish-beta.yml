@@ -4,11 +4,11 @@ on:
   push:
     branches: [ main ]
     paths:
-        - 'Pek.PayPal/**'
+        - 'DH.Barcoder/**'
   pull_request:
     branches: [ main ]
     paths:
-        - 'Pek.PayPal/**'
+        - 'DH.Barcoder/**'
   workflow_dispatch:
 
 jobs:
@@ -30,7 +30,7 @@ jobs:
         dotnet build -c Release --version-suffix ${{ env.VERSION }}
     - name: Pack
       run: |
-        dotnet pack --no-build --version-suffix ${{ env.VERSION }} -c Release -o out Pek.PayPal/Pek.PayPal.csproj
+        dotnet pack --no-build --version-suffix ${{ env.VERSION }} -c Release -o out DH.Barcoder/DH.Barcoder.csproj
 
     - name: Publish
       run: |
